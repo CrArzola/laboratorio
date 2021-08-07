@@ -1,0 +1,334 @@
+/*Aqui esta se personaliza login*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.iniciar {
+    width: 400px;
+    height: 300px;
+    background-color: rgb(22, 20, 20);
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #111;
+    color:white;
+}
+.iniciar h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom:1px solid;
+    font-size: 20px;
+}
+.log{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("file:///C:/Users/Dell/Documents/laboratorio/imagenes/analisis.jpg");
+}
+.controls{
+    width:100%;
+    border: 1px solid;
+    margin-bottom: 18px;
+    padding: 11px 7px;
+    background-color: rgb(31, 27, 27);
+    font-size: bold;
+    font-weight: bold;
+}
+.button-login{
+    width: 100%;
+    height: 30px;
+    background-color:white ;
+    border: none;
+    margin-bottom: 16px;
+    text-align: center;
+    
+}
+.iniciar p{
+    height: 40px;
+    text-align: center;
+}
+.iniciar a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.iniciar a:hover {
+    text-decoration: underline;
+}
+
+/*Aqui inicia la pagina de registro*/
+
+.regis{
+    width: 350px;
+    height: 520px;
+    background-color: rgb(22, 20, 20);
+    margin: auto;
+    margin-top: 65px;
+    box-shadow: 7px 13px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #111;
+    color:white;
+}
+.regis h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom:1px solid;
+    font-size: 20px;}
+
+.re{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(file:///C:/Users/Dell/Documents/laboratorio/imagenes/laboratory-563423_1920.jpg);
+    }
+    
+.regis p{
+    height: 40px;
+    text-align: center;
+}
+.regis a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+.regis a:hover {
+    text-decoration: underline;}
+
+
+
+/*aqui inicia la pagina de principal*/
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+    body{
+    font-family: "Roboto", Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: white 220%;
+    }
+
+    .container{
+        max-width:  1200px; ;
+        margin:0 auto;
+    }
+    .nav{
+        position: fixed;
+        background-color: rgb(20, 2, 2);
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav .active {
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 2, 0, .3);
+    }
+    .nav.active a{
+        color: rgb(138, 180, 207);
+    }
+    .nav.active .container{
+        padding: 10px 0;
+    }
+    .nav a.current, 
+    nav a:hover{
+        color: #c0392b;
+        
+    }
+
+
+
+    .hero{
+    background-image: url("file:///C:/Users/Dell/Documents/laboratorio/imagenes/page1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #f8f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    margin: 0px;
+    z-index: 2;
+
+
+    }
+
+    .hero::before
+    {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+
+    }
+
+    .hero h1{
+        font-size: 70px;
+        margin: -21 0 20px;
+    }
+    .hero p{
+        font-size: 30px;
+        letter-spacing: 1px;
+    } 
+
+    .content h2,
+    .content h3{
+        font-size: 150% ;
+        margin: 10px 0;
+    }
+
+    .content p{
+        color: rgb(54, 41, 41);
+        line-height: 30px;
+        letter-spacing: 1.2px;
+    } 
+   
+
+
+
+    /*aqui inicia la pagina de promociones*/
+
+
+
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+
+    body{
+    font-family: "Roboto", Arial, Helvetica, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: white 220%;
+    }
+
+    .container1{
+        max-width:  1200px; ;
+        margin:0 auto;
+    }
+    .nav1{
+        position: fixed;
+        background-color: rgb(20, 2, 2);
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .nav1 .container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 0;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav1 ul{
+        display: flex;
+        list-style-type: none;
+        align-items: center;
+        justify-content: center;
+    }
+    .nav1 a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        transition: all 0.3s ease-in-out;
+    }
+    .nav1 .active {
+        background-color: #fff;
+        box-shadow: 0 2px 10px rgba(0, 2, 0, .3);
+    }
+    .nav1.active a{
+        color: rgb(138, 180, 207);
+    }
+    .nav1.active .container{
+        padding: 10px 0;
+    }
+    .nav a.current, 
+    nav a:hover{
+        color: #c0392b;
+        
+    }
+
+
+
+    .hero1{
+    background-image: url("file:///C:/Users/Dell/Documents/laboratorio/imagenes/pr.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 100vh;
+    color: #f8f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: center;
+    margin: 0px;
+    z-index: 2;
+
+
+    }
+
+    .hero1::before
+    {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+
+    }
+
+    .hero1 h1{
+        font-size: 70px;
+        margin: -21 0 20px;
+    }
+    .hero1 p{
+        font-size: 30px;
+        letter-spacing: 1px;
+    } 
+
+    .content h2,
+    .content h3{
+        font-size: 150% ;
+        margin: 10px 0;
+    }
+
+    .content p{
+        color: rgb(54, 41, 41);
+        line-height: 30px;
+        letter-spacing: 1.2px;
+    } 
+   
